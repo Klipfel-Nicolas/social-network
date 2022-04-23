@@ -23,6 +23,7 @@ const corsOptions = {
 }
 app.use(cors(corsOptions))
 
+
 //permet de traiter les datas qui transit et cookies
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
